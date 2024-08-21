@@ -1,6 +1,6 @@
 :root {
     --branco-principal: #FFFFFF;
-    --cinza-segundario: #C0C0C0;
+    --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
@@ -37,9 +37,15 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color:var(--cinza-secundario);
 }
